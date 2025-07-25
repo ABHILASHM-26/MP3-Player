@@ -1,189 +1,175 @@
-body{
-    margin:0;
-    border:0;
+body {
+    margin: 0;
+    border: 0;
     border-radius: 20px;
-    background-color: #362551; 
-   
+    background-color: #1E1E2F;
     font-family: 'Josefin Sans', sans-serif;
     position: relative;
-    color:white;
+    color: #F0F0F5;
     display: flex;
     width: 100%;
     height: auto;
 }
 
-
-.nav{
-    height:100vh;
-    background-color: #251440;
-    width:250px;
+.nav {
+    height: 100vh;
+    background-color: #151521;
+    width: 250px;
     border-radius: 20px;
     position: fixed;
 }
 
-.logo{
-    width:auto;
-    display:flex;
-    justify-content:baseline;
-    padding:20px 0px 0px 0px;
+.logo {
+    width: auto;
+    display: flex;
+    justify-content: baseline;
+    padding: 10px 0 0;
 }
 
-.img{
-    width: 80px;
-    height: 100%;
-    display:flex;
-    justify-content:center; 
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    padding-left: .5rem;
-    padding-right: none;
-    margin-right: 0px;
+.img {
+    width: 60px;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0.5rem;
 }
 
-.title{
-    color: white;
-    font-weight: 500;
-    font-size:30px;
+.title {
+    color: #E0DFF0;
+    font-weight: 600;
+    font-size: 30px;
     padding-bottom: 10px;
-    margin-top: 25px;
+    margin-top: 35px;
 }
 
-.menu{
+.menu {
     padding-left: 30px;
     font-size: 20px;
     padding-bottom: 30px;
 }
 
-.menu p{
+.menu p {
     font-weight: bold;
     padding-bottom: 1rem;
+    color: #A29AC0;
 }
 
-.menu-items{
+.menu-items {
     display: flex;
     flex-direction: column;
-    color: rgba(255,255,255,0.5);
-    margin-right: 20px;
+    color: #8888AA;
 }
 
-.menu-items i{
-    color: rgba(255,255,255,0.5);
+.menu-items i {
+    color: #8888AA;
 }
 
-
-.menu-button1:hover{
-    color:rgba(255,255,255,1)
-}
-
-.menu-button{
-    color: white;
+.menu-button {
+    color: #F0F0F5;
     text-decoration: none;
     font-weight: bold;
 }
 
-.menu-button1{
-    color: rgba(255,255,255,0.7);
+.menu-button1 {
+    color: #A8A8C8;
     text-decoration: none;
+    transition: color 0.3s;
 }
 
-.menu-item-sep{
+.menu-button1:hover {
+    color: #DADAEF;
+}
+
+.menu-item-sep {
     padding: 8px;
     font-size: 18px;
     padding-bottom: 2rem;
 }
 
-.menu-item-sep :hover{
-    color: rgba(255,255,255,1);
+.menu-item-sep:hover {
+    color: #E0E0FF;
 }
 
-.menu-item-sep i{
+.menu-item-sep i {
     padding-right: 8px;
 }
 
-#menu-home *{
-    color: white;
+#menu-home * {
+    color: #FFFFFF;
 }
 
-.search-login{
+.search-login {
     display: flex;
-    width:100%;
-    height: 30px;  
+    width: 100%;
+    height: 40px;
     padding: 10px;
     margin-top: 30px;
 }
 
-
-
-.search{
+.search {
     border-radius: 20px;
-    background-color: none;
-    width:600px;
+    background-color: transparent;
+    width: 600px;
     display: flex;
     padding-left: 10px;
-    border: 1px solid white;
+    border: 1px solid #8888AA;
     margin-left: 1rem;
 }
-.search i{
+
+.search i {
     margin-right: 10px;
     padding-top: 8px;
+    color: #DADAEF;
 }
 
-.search-input{
+.search-input {
     width: 600px;
     height: 100%;
-    padding: 5px;
-    padding-left: 30px;
-    padding-bottom: 10px;
+    padding: 5px 0 10px 30px;
     margin-top: -10px;
     border: none;
     background-color: transparent;
-    color: white;
+    color: #F0F0F5;
     outline: none;
     font-size: 1rem;
-    font-family: 'Josefin Sans', sans-serif;
 }
 
-.search-input::placeholder{
-    color: rgba(255,255,255,0.5);
+.search-input::placeholder {
+    color: #AAAAC0;
 }
 
 .login {
     display: flex;
-    color:white;
+    color: #F0F0F5;
     padding: 5px;
-    margin-left: 18rem;
-    margin-bottom: 20px;
+    margin-left: auto;
     font-size: 18px;
-    margin-top: -13px;
+    align-items: center;
+    gap: 0.5rem;
+    margin-right: 1.5rem;
 }
 
-.login i{
-    margin-bottom: 2rem;
-    margin-top: 1rem;
-    margin-left: 1rem;
-}
-
-.welcome{
+.welcome {
     height: auto;
     width: 100%;
     margin: 5px;
     border-radius: 10px;
 }
 
-.hello{
+.hello {
     padding-left: 2rem;
     font-size: 20px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
-.name{
+.name {
     padding-left: 2rem;
-    font-size: 30px;
-    margin: 8px 0px;
+    font-size: 40px;
+    margin: 8px 0;
 }
 
-.content{
-    width:100%;
+.content {
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -191,225 +177,165 @@ body{
     margin-bottom: 3rem;
 }
 
-.recommend{
-    padding-left:2rem;
+.recommend {
+    padding-left: 2rem;
     padding-top: 3rem;
     font-size: 20px;
-    margin: 10px 0px;
     font-weight: bold;
+    color: #DADAEF;
+    margin: 10px 0;
 }
 
-.songs{
+.songs {
     width: 100%;
     height: auto;
     display: grid;
-    grid-template-columns: repeat(7,1fr);
-    margin-left: 1rem;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1rem;
+    margin-left: 2rem;
     margin-bottom: 3rem;
 }
 
-.song-box{
-    width: auto;
+.song-box {
     height: 15rem;
-    margin: 6px;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 10px;
     overflow: hidden;
-    white-space: nowrap;
+    transition: background-color 0.3s;
 }
 
 .song-link {
-    text-decoration: none; /* Remove the underline from the link */
-    color: inherit; /* Inherit the parent color */
-    display: block; /* Ensure the entire div is clickable */
+    text-decoration: none;
+    color: inherit;
+    display: block;
 }
 
-/* Maintain color on different link states */
-.song-link:link,
-.song-link:visited,
-.song-link:hover,
-.song-link:active {
-    color: inherit; /* Ensure the color does not change */
-}
-
-.song-photo{
+.song-photo {
     width: 100%;
     height: 10rem;
-    border-radius: 5px;
+    border-radius: 8px;
+    object-fit: cover;
 }
 
-.song-name{
-    margin: 5px 0px 0px 0px;
-    padding-top: 5px;
+.song-name {
+    margin: 6px 0 2px;
     font-weight: bold;
     overflow: hidden;
     text-overflow: ellipsis;
 }
 
-.artist-name{
-    margin: 5px 0px 0px 0px;
-    color: rgba(255,255,255,0.7);
+.artist-name {
+    color: #AAAAC0;
+    overflow: hidden;
     text-overflow: ellipsis;
 }
 
-.song-box p{
-    text-overflow: inherit;
-    overflow: hidden;
+.song-box:hover {
+    background-color: #2C2C45;
+    cursor: pointer;
 }
 
-.song-box:hover{
-    background-color: #251440;
-    cursor:pointer;
-}
-
-.creators{
+.creators {
     width: 100%;
-    height: auto;
-    margin-bottom: 5rem;
     padding-bottom: 5rem;
 }
 
-.creators a{
-    color: white;
+.creators a {
+    color: #DADAEF;
     text-decoration: none;
-    align-items: center;
+    transition: color 0.3s;
 }
 
-.creator-names{
+.creator-names {
     display: flex;
     justify-content: center;
-    gap: 8rem;
-    padding-bottom: 6rem;
+    gap: 6rem;
+    padding-bottom: 4rem;
 }
 
-.creators a:hover{
-    color: rgba(255,255,255,0.7);
+.creators a:hover {
+    color: #BFBFDF;
 }
 
-.created-by{
+.created-by {
     display: flex;
     justify-content: center;
     align-items: center;
     font-weight: bold;
 }
 
-/* For WebKit based browsers (Chrome, Safari) */
+/* Scrollbar */
 ::-webkit-scrollbar {
-    width: 18px; /* Width of the scrollbar */
-  }
-  
-  ::-webkit-scrollbar-track {
-    background: #362551; /* Color of the track */
-  }
-  
-  ::-webkit-scrollbar-thumb {
-    background: #251440; /* Color of the thumb */
-  }
-  
-  ::-webkit-scrollbar-thumb:hover {
-    background: #251550; /* Color of the thumb on hover */
-  }
+    width: 14px;
+}
+::-webkit-scrollbar-track {
+    background: #1E1E2F;
+}
+::-webkit-scrollbar-thumb {
+    background: #5C4D7D;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #6D5E99;
+}
 
- .player{
-    width: 75rem;
+/* Player */
+.player {
+    width: 90%;
     height: 6rem;
-    color: white;
     position: fixed;
     bottom: 1rem;
-    right: 2rem;
-    border: 1px;
-    background-color: #251440;
+    right: 1rem;
+    background-color: #151521;
     display: flex;
     border-radius: 20px;
-  }
+    box-shadow: 0 0 10px #00000044;
+    padding: 10px;
+}
 
-
-  /* Styles for the audio player */
 .audio-player {
     width: 100%;
     margin: 0;
-  }
+}
 
-  audio{
+audio {
     width: 100%;
-    border-color: none;
-    margin: 0 ;
-  }
+    margin: 0;
+    background-color: transparent;
+}
 
-  .song-photo-player{
+/* Audio Controls Styling */
+audio::-webkit-media-controls-panel {
+    background-color: #151521;
+    color: #F0F0F5;
+}
+
+.song-photo-player {
     height: 4rem;
-    width: auto;
+    width: 4rem;
     border-radius: 50%;
     padding: 10px;
-    padding-left: 20px;
-  }
+    object-fit: cover;
+}
 
-  .song-name-player{
+.song-name-player {
     font-weight: bold;
-    padding-left: 30px;
-  }
+    padding-left: 20px;
+}
 
-  .artist-name-player{
-    padding-left: 50px;
-  }
-  
-  .player-info{
+.artist-name-player {
+    padding-left: 20px;
+    color: #AAAAC0;
+}
+
+.player-info {
     display: flex;
-    height: 2rem;
-  }
+    align-items: center;
+    gap: 1rem;
+    height: 100%;
+}
 
-  .info-audio{
+.info-audio {
     display: flex;
     flex-direction: column;
-    width: 100%;
-  }
-  /* Styles for the audio player controls */
-  audio::-webkit-media-controls-panel {
-    background-color: #251440;
-    border: 0px;
-  }
-  
-  audio::-webkit-media-controls-play-button,
-  audio::-webkit-media-controls-pause-button {
-    color: #fff;
-    font-size: 16px;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-  }
-  
-  audio::-webkit-media-controls-play-button {
-    background-image: url('play-button.svg');
-    background-size: contain;
-  }
-  
-  audio::-webkit-media-controls-pause-button {
-    background-image: url('pause-button.svg');
-    background-size: contain;
-  }
-  
-  audio::-webkit-media-controls-timeline {
-    border-radius: 2px;
-  }
-  
-  audio::-webkit-media-controls-current-time-display,
-  audio::-webkit-media-controls-time-remaining-display {
-    color: #fff;
-    font-size: 14px;
-  }
-  
-  audio::-webkit-media-controls-volume-slider {
-    width: 100px;
-  }
-  
-  audio::-webkit-media-controls-mute-button {
-    color: #fff;
-    font-size: 16px;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-  }
-  
-  /* Styles for other controls as needed */
-  
-  
+    justify-content: center;
+}
